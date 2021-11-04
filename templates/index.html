@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %} Main Page {% endblock %}
+
+{% block content %}
+
+<div class="container">
+    <span class = text-center>
+        <h1>Лабораторна робота №3</h1>
+        <p class = "font-italic text-center">Виконав Дякун Владислав (ІПЗ-31)</p>
+        <h3>{{ title }}</h3>
+    </span>
+    <ul class="justify-content-center">
+        <li>Home - стартова сторінка</li>
+        <li>Task - список завдань на лабораторну роботу №3</li>
+        <li>If Statement - робота операторів if, elif, else для визначення чи є числа зі списку додатніми чи від'ємними, парними чи непарними, або рівними нулю</li>
+        <li>For - виведення форм записів через оператор for</li>
+    </ul>
+</div>
+
+{% endblock %}
