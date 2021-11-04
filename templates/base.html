@@ -9,7 +9,9 @@
     <body>
         {% include "nav.html" %}
 
-        {% block content %} {% endblock %}
+        {% block content %}  {% endblock %}
+        
+        {% include "footer.html" %}
 
         <script src="{{url_for('static', filename='bootstrap/js/bootstrap.min.js')}}"></script>
     </body>
