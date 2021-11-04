@@ -4,11 +4,13 @@
 
 {% block content %} 
 
+<div class = "container text-center">
+<h1 class = "align-items-center">Лабораторна робота №3</h1>
+<h3 class = "align-items-center">{{ title }}</h3>
+
 {% for form in forms %}
 
 <div class="card text-center">
-    <h1>Лабораторна робота №3</h1>
-    <h3>{{ title }}</h3>
     <div class="card-header ">
         <h3>Form №{{ loop.index }}</h3>
     </div>
@@ -23,5 +25,7 @@
 </div>
 
 {% endfor %}
+
+</div>
 
 {% endblock %}
